@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2ada34da-0af1-4518-9ddf-0952f0812b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackernews-node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hackernews-node/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackernews-node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hackernews-node/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hackernews-node/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hackernews-node/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackernews-node/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/hackernews-node/src/schema.graphql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.84522">
+    <splitter split-orientation="horizontal" split-proportion="0.25948405">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -46,7 +47,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hackernews-node/src/generated/prisma-client/index.js">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -58,7 +59,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hackernews-node/src/generated/prisma-client/index.d.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
@@ -76,8 +77,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hackernews-node/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -93,9 +94,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hackernews-node/src/schema.graphql" />
-        <option value="$PROJECT_DIR$/hackernews-node/src/index.js" />
         <option value="$PROJECT_DIR$/hackernews-node/prisma/datamodel.prisma" />
         <option value="$PROJECT_DIR$/hackernews-node/prisma/prisma.yml" />
+        <option value="$PROJECT_DIR$/hackernews-node/src/index.js" />
       </list>
     </option>
   </component>
@@ -141,14 +142,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="generated" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GraphQLreview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphQLreview" type="462c0819:PsiDirectoryNode" />
-              <item name="hackernews-node" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="prisma-client" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -189,17 +182,18 @@
       <workItem from="1553823072338" duration="4336000" />
       <workItem from="1553835653151" duration="1450000" />
       <workItem from="1553879525945" duration="2474000" />
-      <workItem from="1553897494543" duration="857000" />
+      <workItem from="1553897494543" duration="2739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9117000" />
+    <option name="totallyTimeSpent" value="10999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="27" width="683" height="741" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4090909" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4090909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -238,22 +232,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackernews-node/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hackernews-node/prisma/prisma.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackernews-node/src/generated/prisma-client/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hackernews-node/src/generated/prisma-client/prisma-schema.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -266,6 +250,16 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackernews-node/src/generated/prisma-client/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackernews-node/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
