@@ -7,11 +7,19 @@ var models = [
   {
     name: "Link",
     embedded: false
+  },
+  {
+    name: "User",
+    embedded: false
+  },
+  {
+    name: "Vote",
+    embedded: false
   }
 ];
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: `https://eu1.prisma.sh/abraham-bueno-full-stack-web-developer-351020/hackernews-node/dev`
+  endpoint: `https://us1.prisma.sh/abraham-bueno-full-stack-web-developer-351020/graphql-js/dev`
 });
 exports.prisma = new exports.Prisma();
