@@ -3,6 +3,10 @@ type Query {
   feed(filter: String, skip: Int, first: Int, orderBy: LinkOrderByInput): Feed!
 }
 
+type Feed {
+  links: [Link!]!
+  count: Int!
+}
 enum LinkOrderByInput {
   description_ASC
   description_DESC
@@ -10,11 +14,6 @@ enum LinkOrderByInput {
   url_DESC
   createdAt_ASC
   createdAt_DESC
-}
-
-type Feed {
-  links: [Link!]!
-  count: Int!
 }
 
 type Mutation {
